@@ -4,13 +4,26 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./Redux/Store";
+import { OpenCartContextProvider } from "./Context/OpenCartContext";
+import { ThemeProvider } from "@mui/material";
+import theme from "./Theme/theme";
+import { SnackBarContextProvider } from "./Context/SnackBarContext";
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <OpenCartContextProvider>
+        <SnackBarContextProvider>
+          <BrowserRouter>
+            <App />
+          </BrowserRouter>
+        </SnackBarContextProvider>
+      </OpenCartContextProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
 
