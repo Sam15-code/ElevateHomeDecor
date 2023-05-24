@@ -29,8 +29,8 @@ const getuserById = async (req, res) => {
     console.log(data);
     if (data) {
       console.log("hello");
-      let token = jwt.sign({ ...data }, process.env.SECRET);
-      res.send({
+      let token = await jwt.sign({ ...data }, "22121225dssdsdssdds");
+      await res.send({
         isSuccess: true,
         token: token,
         user: data,

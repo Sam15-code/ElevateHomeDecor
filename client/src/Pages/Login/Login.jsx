@@ -40,16 +40,13 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(value);
-    const respone = await axios.post(
-      "/users/auth/login",
-      value
-    );
+    const respone = await axios.post("/users/auth/login", value);
 
-      alert(respone.data.message);
+    alert(respone.data.message);
+    if (respone.data.IsSuccess) {
       dispatch(setloginIn(respone.data));
-      
       navigate("/");
-   
+    }
   };
   return (
     <Box className={container}>
@@ -106,7 +103,6 @@ const Login = () => {
             Go to Home.?
           </Typography>
         </Box>
-       
       </form>
     </Box>
   );
