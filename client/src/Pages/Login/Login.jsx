@@ -43,9 +43,9 @@ const Login = () => {
     const respone = await axios.post("/users/auth/login", value);
 
     alert(respone.data.message);
-    if (respone.data.IsSuccess) {
-      dispatch(setloginIn(respone.data));
+    if (respone.data.isSuccess) {
       navigate("/");
+      dispatch(setloginIn(respone.data));
     }
   };
   return (
