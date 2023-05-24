@@ -112,7 +112,6 @@ const NewsLatter = () => {
           </form>
           <Box>
             <Typography>
-              Cras interdum lectus velit nibh senectus fringilla ut.
             </Typography>
           </Box>
         </Box>

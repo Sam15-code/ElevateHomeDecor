@@ -95,24 +95,23 @@ const WhyChooseUs = () => {
         <SettingsApplicationsIcon color="primary" sx={{ fontSize: "55px" }} />
       ),
       title: "Big Discounts",
-      desc: "",
     },
     {
       icon: <LocalShippingIcon color="primary" sx={{ fontSize: "55px" }} />,
       title: "Free Shipping",
-      desc: "",
+     
     },
     {
       icon: (
         <AccountBalanceWalletIcon color="primary" sx={{ fontSize: "55px" }} />
       ),
       title: "Secure Payments",
-      desc: "",
+     
     },
     {
       icon: <NearMeIcon color="primary" sx={{ fontSize: "55px" }} />,
       title: "Order Tracking",
-      desc: "",
+      
     },
   ]);
   return (
