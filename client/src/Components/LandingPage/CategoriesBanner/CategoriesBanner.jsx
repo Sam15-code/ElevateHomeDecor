@@ -53,7 +53,7 @@ const CategoriesBanner = () => {
     {
       title: "Living Room",
       image:
-        "https://media.istockphoto.com/id/1182454657/photo/bohemian-living-room-interior-3d-render.jpg?s=612x612&w=0&k=20&c=qw37MGIiTL_jML3_Tbm4bM-jNLCrocSWj7DanhBr_bY=",
+        "https://media.istockphoto.com/id/1158575634/photo/interior-with-armchair-and-coffee-table-3d-rendering.jpg?s=612x612&w=0&k=20&c=eBrIx3t7p5yElgACCtkJ2Z0gUCTfBfjF_tWPRHU6cmw=",
     },
     {
       title: "Bedroom",

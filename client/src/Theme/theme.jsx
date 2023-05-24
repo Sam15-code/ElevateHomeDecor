@@ -21,7 +21,7 @@ let theme = createTheme({
       grey: "#333333",
     },
     primary: {
-      main: "#c471f4 !important ",
+      main: "#c5bb23 !important ",
       contrastText: "#fff",
       opacity: "RGBA(52,128,250,0.15)",
     },

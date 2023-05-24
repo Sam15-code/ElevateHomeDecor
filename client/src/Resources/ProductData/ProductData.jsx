@@ -2,7 +2,7 @@ export const ProductData = [
   {
     id: "1",
     image:
-      "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/furniture-green-fabric-chair.png",
+      "https://www.housingunits.co.uk/media/catalog/product/cache/60968cec045f20fb06ab5f7720001507/e/8/e8e4cd8a5d68a108c0401035de7fa699.jpg",
     name: "Modern Emerald Fabric Chair",
     price: 860.0,
     discountedPrice: 850.0,
@@ -40,7 +40,7 @@ export const ProductData = [
   {
     id: "2",
     image:
-      "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/living-room-brown-sofa.png",
+      "https://cdn.shopify.com/s/files/1/0544/6831/3269/products/81WT6csPblL._AC_SL1500_1024x1024@2x.webp?v=1671522917",
     name: "Brown Living Room Sofa",
     price: 1200.0,
     category: ["Living Room", "Home Office"],
@@ -67,7 +67,7 @@ export const ProductData = [
   {
     id: "4",
     image:
-      "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/living-room-green-sofa.png",
+      "https://cdn.shopify.com/s/files/1/0544/6831/3269/products/81WT6csPblL._AC_SL1500_1024x1024@2x.webp?v=1671522917",
     name: "Green Living Room Sofa",
     price: 1200.0,
     discountedPrice: 1050.0,
@@ -81,7 +81,7 @@ export const ProductData = [
   {
     id: "5",
     image:
-      "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/king-size-master-bedroom.png",
+      "https://i.pinimg.com/originals/c6/6f/b7/c66fb7b279a660e3daf84e7d32efdf07.jpg",
     name: "King Size Master Bedroom",
     price: 14500.5,
     category: ["Bedroom", "Home Office"],
@@ -94,7 +94,7 @@ export const ProductData = [
   {
     id: "6",
     image:
-      "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/wooden-console-table-300x300.png",
+      "https://www.desser.co.uk/wp-content/uploads/2021/11/Console-Table-Natural-web.jpg",
     name: "Wooden Console Table",
     price: 724.0,
     category: ["Bedroom", "Home Office"],

@@ -73,14 +73,14 @@ const TestimonialBanner = () => {
   const [cardData] = useState([
     {
       image:
-        "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/woman-with-black-jacket-avatar.jpg",
+        "https://as1.ftcdn.net/v2/jpg/00/57/35/54/1000_F_57355460_EIxA64s7m8ieHyHSGjRnPT3NuDyqEZxJ.jpg",
       name: "Kyle Hader",
       jobdesc: "developer",
       msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
     },
     {
       image:
-        "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/man-wearing-glasses-avatar.jpg",
+        "https://www.westernhealth.com/sites/wha/cache/file/54E03103-8DB7-4701-B7514383C046F807_width370.jpg",
       name: "Joseph Teath",
       jobdesc: "Lawyer Zone",
       msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",

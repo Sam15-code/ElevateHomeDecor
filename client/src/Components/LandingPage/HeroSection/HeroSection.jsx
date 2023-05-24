@@ -35,7 +35,7 @@ const useStyle = makeStyles((theme) => {
       color: theme.palette.white.main,
       display: "flex",
       flexDirection: "column",
-      justifyContent:'space-between',
+      justifyContent: "space-between",
       gap: "180px",
       height: "100%",
       minHeight: "66vh",
@@ -142,9 +142,6 @@ const HeroSection = () => {
               reflects your personal style. Shop now and get ready to transform
               your home!
             </Typography>
-          </Box>
-          <Box>
-            <Button variant="contained">SHOP NOW</Button>
           </Box>
         </Box>
         <Box className={IconsContainer}>

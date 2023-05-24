@@ -122,12 +122,7 @@ const Header = () => {
       icon: <DesignServicesIcon sx={{ fontSize: "35px" }} />,
       link: "/products",
     },
-    {
-      title: "About Us",
-      selected: false,
-      icon: <InfoIcon sx={{ fontSize: "35px" }} />,
-      link: "/aboutus",
-    },
+   
     {
       title: "Contact Us",
       selected: false,

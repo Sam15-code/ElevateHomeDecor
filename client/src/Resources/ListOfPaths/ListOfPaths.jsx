@@ -1,4 +1,4 @@
-import AboutUs from "../../Pages/AboutUs/AboutUs";
+
 import Cart from "../../Pages/Cart/Cart";
 import Checkout from "../../Pages/Checkout/Checkout";
 import ContactUs from "../../Pages/ContactUs/ContactUs";
@@ -14,10 +14,7 @@ export const Paths = [
     path: "/",
     component: <MainPage ActivePage={<LandingPage />} />,
   },
-  {
-    path: "/aboutus",
-    component: <MainPage ActivePage={<AboutUs />} />,
-  },
+ 
   {
     path: "/products",
     component: <MainPage ActivePage={<Products />} />,
