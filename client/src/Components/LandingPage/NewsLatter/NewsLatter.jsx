@@ -1,6 +1,6 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import React from "react";
+import React, { useState } from "react";
 import news from "../../../Assets/news.jfif";
 const useStyle = makeStyles((theme) => {
   return {
@@ -51,13 +51,13 @@ const useStyle = makeStyles((theme) => {
       gap: "20px",
       alignItems: "center",
     },
-    InputContainer:{
-        display:'flex',
-        gap:'20px',
-        [theme.breakpoints.down('md')]:{
-            flexWrap:'wrap'
-        }
-    }
+    InputContainer: {
+      display: "flex",
+      gap: "20px",
+      [theme.breakpoints.down("md")]: {
+        flexWrap: "wrap",
+      },
+    },
   };
 });
 
@@ -70,6 +70,7 @@ const NewsLatter = () => {
     line,
     InputContainer,
   } = useStyle();
+  const [state, setstate] = useState("");
   return (
     <Box className={container}>
       <Box className={subContainer}>
@@ -85,12 +86,30 @@ const NewsLatter = () => {
               See The Latest Collection & Get Special Offer
             </Typography>
           </Box>
-          <Box className={InputContainer}>
-            <TextField name="email" size="small" fullWidth placeholder="Email Address"/>
-            <Button variant="contained" sx={{ padding: {md:"0px 30px",xs:'5px 30px'} }}>
+          <form
+            className={InputContainer}
+            onSubmit={(e) => {
+              e.preventDefault();
+              alert(`your ${state} is saved`);
+            }}
+          >
+            <TextField
+              name="email"
+              size="small"
+              fullWidth
+              placeholder="Email Address"
+              required
+              type="email"
+              onChange={(e) => setstate(e.target.value)}
+            />
+            <Button
+              variant="contained"
+              sx={{ padding: { md: "0px 30px", xs: "5px 30px" } }}
+              type="submit"
+            >
               SUBSCRIBE
             </Button>
-          </Box>
+          </form>
           <Box>
             <Typography>
               Cras interdum lectus velit nibh senectus fringilla ut.

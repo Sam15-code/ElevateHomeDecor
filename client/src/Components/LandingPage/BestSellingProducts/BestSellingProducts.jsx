@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { ProductData } from "../../../Resources/ProductData/ProductData";
 import ProductCards from "../../Cards/ProductCards";
 import ProductDetailsModal from "../../Modals/ProductDetailsModal";
+import { useNavigate } from "react-router";
 
 const useStyle = makeStyles((theme) => {
   return {
@@ -70,6 +71,7 @@ const BestSellingProducts = () => {
     headingContainer,
     headingBox,
   } = useStyle();
+  const navigate = useNavigate()
   const [selectedProduct, setselectedProduct] = useState(null);
   const [open, setOpen] = useState(false);
   const handleOpen = (data) => {
@@ -96,7 +98,7 @@ const BestSellingProducts = () => {
                 </Typography>
               </Box>
               <Box>
-                <Button variant="contained">VIEW ALL BEST SELLERS</Button>
+                <Button variant="contained" onClick={(e)=>navigate('/products')}>VIEW ALL BEST SELLERS</Button>
               </Box>
             </Box>
           </Box>

@@ -30,7 +30,7 @@ const App = () => {
 
       <ScrollToTop
         smooth
-        style={{ background: "#c471f4" }}
+        style={{ background: "#303030" }}
         component={
           <ArrowUpwardIcon
             sx={{ color: (theme) => theme.palette.white.main }}

@@ -16,7 +16,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ContactsIcon from "@mui/icons-material/Contacts";
 import CollectionsIcon from "@mui/icons-material/Collections";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
-import logo from "../../Assets/logo.svg";
+import logo from "../../Assets/logo.png";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import HeaderDrawer from "../Drawer/Drawer";
 import { useDispatch, useSelector } from "react-redux";

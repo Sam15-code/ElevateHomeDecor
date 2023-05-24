@@ -46,9 +46,7 @@ const LandingPage = () => {
         <Box>
           <SaleBanner />
         </Box>
-        <Box>
-          <TestimonialBanner />
-        </Box>
+       
         <Box>
           <WhyChooseUs />
         </Box>

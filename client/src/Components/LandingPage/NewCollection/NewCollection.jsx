@@ -2,6 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
 import collection from "../../../Assets/collection.jpg";
+import { useNavigate } from "react-router";
 const useStyle = makeStyles((theme) => {
   return {
     container: {
@@ -30,7 +31,7 @@ const useStyle = makeStyles((theme) => {
       padding: "20px",
       [theme.breakpoints.down("md")]: {
         width: "auto",
-        padding:'0px'
+        padding: "0px",
       },
     },
     ContentContainer: {
@@ -41,7 +42,7 @@ const useStyle = makeStyles((theme) => {
       padding: "20px",
       [theme.breakpoints.down("md")]: {
         width: "auto",
-        padding:'0px'
+        padding: "0px",
       },
     },
     taglineContainer: {
@@ -73,6 +74,7 @@ const NewCollection = () => {
     line,
     image,
   } = useStyle();
+  const navigate = useNavigate();
   return (
     <Box className={container} id={"New Collection"}>
       <Box className={subContainer}>
@@ -108,7 +110,7 @@ const NewCollection = () => {
             </Typography>
           </Box>
           <Box>
-            <Button variant="contained">SHOP THIS COLLECTION</Button>
+            <Button variant="contained" onClick={()=>navigate('/products')}>SHOP THIS COLLECTION</Button>
           </Box>
         </Box>
       </Box>

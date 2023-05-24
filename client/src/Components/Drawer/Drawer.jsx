@@ -6,7 +6,7 @@ import { Box } from "@mui/system";
 import { ListItemButton, ListItemIcon, ListItemText, Typography } from "@mui/material";
 import { useLocation, useNavigate } from "react-router";
 import { makeStyles } from "@mui/styles";
-import logo from '../../Assets/logo.svg'
+import logo from '../../Assets/logo.png'
 const useStyle = makeStyles((theme) => {
   return {
     active: {

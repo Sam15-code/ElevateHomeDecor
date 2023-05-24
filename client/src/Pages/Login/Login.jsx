@@ -44,15 +44,12 @@ const Login = () => {
       "/users/auth/login",
       value
     );
-    console.log(respone);
-    if (respone.data.isSuccess) {
+
       alert(respone.data.message);
       dispatch(setloginIn(respone.data));
       
       navigate("/");
-    } else {
-      alert("something went wrong");
-    }
+   
   };
   return (
     <Box className={container}>

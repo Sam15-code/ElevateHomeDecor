@@ -2,6 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
 import cabinet from "../../../Assets/cabinet.jpg";
+import { useNavigate } from "react-router";
 const useStyle = makeStyles((theme) => {
   return {
     container: {
@@ -45,6 +46,7 @@ const useStyle = makeStyles((theme) => {
 
 const SaleBanner = () => {
   const { container, subContainer, contentContainer } = useStyle();
+  const navigate = useNavigate()
   return (
     <Box className={container}>
       <Box className={subContainer}>
@@ -61,7 +63,7 @@ const SaleBanner = () => {
             </Typography>
           </Box>
           <Box>
-            <Button variant="contained">SHOP NOW</Button>
+            <Button variant="contained" onClick={()=>navigate('/products')}>SHOP NOW</Button>
           </Box>
         </Box>
       </Box>
