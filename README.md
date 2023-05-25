@@ -1,24 +1,20 @@
 # Elevate Home Decor
+
 ## Live Link
  https://kayuunew.herokuapp.com/
-Table-of-Contents
+ 
+## Table-of-Contents
 
-Description
-Technologies
-Credits
-License
+-[Description](#description)
+-[Technologies](#technologies)
+-[Installation](#installation)
+-[Usage](#usage)
+-[Credits](#credits)
+-[License](#license)
 
 ## Description
 
 We created "Elevate Home Decor e-commerce website" constructed on which the users can search for specified furniture that they would prefer in their home and purchase the items on our website. The customers will need to indicate the users email and private password. Subsequently they will successfully be able to have access to the webpage, credentials, and social media page.
-
-
-
-
-Here is our website link: 
-
-
-
 
 ## Technologies used
  - oracle
@@ -27,8 +23,7 @@ Here is our website link:
  - Express.js
  - Node.js server with a React front end
  - JWT
-  
-   
+
 
 ## Installation
 
@@ -43,7 +38,7 @@ Here is our website link:
 
 - Step 1, The customer will need apply their creditionals in our furniture website.
 - You will be prompted with the web page, log-in site, and social media page.  
-- Once you have logged, scroll through the furniture that best fits your interest.
+- Once you have logged in, scroll through the furniture that best fits your interest.
 
 ## Credits
 
