@@ -80,35 +80,7 @@ const Products = () => {
       <TopBanner bg={products} Text={"Products"} PageName={"Products"} />
       <Box className={container}>
         <Box className={subContainer}>
-          <Box className={filterContainer}>
-            <Box>
-              <Button
-                variant="contained"
-                sx={{ padding: "5px 20px" }}
-                onClick={handleOpenFilter}
-              >
-                <MenuOpenIcon /> OPTIONS
-              </Button>
-            </Box>
-            <Box sx={{ width: "100%", maxWidth: "220px" }}>
-              <FormControl fullWidth>
-                <TextField
-                  name="filter"
-                  size="small"
-                  select
-                  // onChange={handleChange}
-                >
-                  <MenuItem value="Default sort">Default sort</MenuItem>
-                  <MenuItem value="increment">
-                    Filter By Price (Inc)
-                  </MenuItem>
-                  <MenuItem value="decrement">
-                    Filter By Price (Dec)
-                  </MenuItem>
-                </TextField>
-              </FormControl>
-            </Box>
-          </Box>
+ 
           <Box className={contentContainer}>
             {allProducts?.map((data, i) => {
               return (
