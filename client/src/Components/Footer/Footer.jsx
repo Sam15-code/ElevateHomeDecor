@@ -110,7 +110,7 @@ const Footer = () => {
             </Box>
             <Box>
               <Typography>
-                3538 Torrance Blvd, Torrance, CA 90503, USA +1 123 456 7890
+                777 Franklin Blvd, Torrance, CA 90503, USA +1 123 456 7890
               </Typography>
               <Typography>info@example.com</Typography>
               <Typography>Visit Our Store</Typography>
@@ -153,7 +153,7 @@ const Footer = () => {
               <Box sx={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <Box>
                   <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   
                   </Typography>
                 </Box>
               </Box>

@@ -76,28 +76,28 @@ const TestimonialBanner = () => {
         "https://as1.ftcdn.net/v2/jpg/00/57/35/54/1000_F_57355460_EIxA64s7m8ieHyHSGjRnPT3NuDyqEZxJ.jpg",
       name: "Kyle Hader",
       jobdesc: "developer",
-      msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      msg: "I can't say enough good things about this furniture store. They have a wide range of styles to choose from, and their prices are very competitive. Plus, the delivery service was prompt and efficient. Will definitely be shopping here again!",
     },
     {
       image:
         "https://www.westernhealth.com/sites/wha/cache/file/54E03103-8DB7-4701-B7514383C046F807_width370.jpg",
       name: "Joseph Teath",
       jobdesc: "Lawyer Zone",
-      msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      msg: "This furniture store has become my go-to place for all my furniture needs. The quality of their products is exceptional, and they offer unique and stylish pieces that you won't find elsewhere. It's definitely worth a visit if you're looking to furnish your home.",
     },
     {
       image:
         "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/woman-with-black-jacket-avatar.jpg",
       name: "Shadale B.",
       jobdesc: "Business Consultants",
-      msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      msg: "The furniture store exceeded my expectations in every way. Not only do they have a beautiful selection, but the prices are reasonable too. The whole process, from browsing to purchasing, was smooth and hassle-free. I'm extremely satisfied with my purchases.",
     },
     {
       image:
         "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/man-wearing-glasses-avatar.jpg",
       name: "Robert Macnail",
       jobdesc: "Serial Entrepreneur",
-      msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      msg: "I highly recommend this furniture store for their exceptional craftsmanship. The furniture I bought from them is durable, well-made, and built to last. It's clear that they take pride in their work and offer only the best to their customers.",
     },
   ]);
   return (

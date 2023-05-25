@@ -95,24 +95,23 @@ const WhyChooseUs = () => {
         <SettingsApplicationsIcon color="primary" sx={{ fontSize: "55px" }} />
       ),
       title: "Big Discounts",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis non sem eget dapibus. Ut eget lobortis augue. Donec eros tortor, porttitor non finibus at,",
     },
     {
       icon: <LocalShippingIcon color="primary" sx={{ fontSize: "55px" }} />,
       title: "Free Shipping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis non sem eget dapibus. Ut eget lobortis augue. Donec eros tortor, porttitor non finibus at,",
+     
     },
     {
       icon: (
         <AccountBalanceWalletIcon color="primary" sx={{ fontSize: "55px" }} />
       ),
       title: "Secure Payments",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis non sem eget dapibus. Ut eget lobortis augue. Donec eros tortor, porttitor non finibus at,",
+     
     },
     {
       icon: <NearMeIcon color="primary" sx={{ fontSize: "55px" }} />,
       title: "Order Tracking",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis non sem eget dapibus. Ut eget lobortis augue. Donec eros tortor, porttitor non finibus at,",
+      
     },
   ]);
   return (

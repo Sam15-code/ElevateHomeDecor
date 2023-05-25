@@ -124,14 +124,11 @@ const ContactUsForm = () => {
         <Box>
           <Typography color={"primary"}>OUR STORE</Typography>
           <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-            3538 Torrance Blvd, Torrance, CA 90503, USA
+            777 Fanklin Blvd, Torrance, CA 90503, USA
           </Typography>
         </Box>
         <Box>
           <Typography>
-            Posuere sagittis ultricies enim massa nisi neque augue in
-            condimentum lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </Typography>
         </Box>
         <Box className={iconsContainer}>

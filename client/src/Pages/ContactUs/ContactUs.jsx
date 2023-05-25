@@ -53,9 +53,6 @@ const ContactUs = () => {
               Contact Us
             </Typography>
             <Typography>
-              Tempus amet, sit erat malesuada lorem purus dictum pretium,
-              posuere sagittis ultricies enim massa nisi neque augue in
-              condimentum diam commodo ornare.
             </Typography>
           </Box>
           <ContactAddress />
