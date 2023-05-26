@@ -1,4 +1,4 @@
-# Elevate Home Decor
+# Kayuu
 
 ## Live Link
  https://kayuunew.herokuapp.com/
@@ -14,7 +14,7 @@
 
 ## Description
 
-We created "Elevate Home Decor e-commerce website" constructed on which the users can search for specified furniture that they would prefer in their home and purchase the items on our website. The customers will need to indicate the users email and private password. Subsequently they will successfully be able to have access to the webpage, credentials, and social media page.
+We created "Kayuu" constructed on which the users can search for specified furniture that they would prefer in their home and purchase the items on our website. The customers will need to indicate the users email and private password. Subsequently they will successfully be able to have access to the webpage, credentials, and social media page.
 
 ## Technologies used
  - oracle
@@ -27,7 +27,7 @@ We created "Elevate Home Decor e-commerce website" constructed on which the user
 
 ## Installation
 
- - Clone the project tow github ( git clone https://github.com/Sam15-code/ElevateHomeDecor)
+ - Clone the project to github ( git clone https://github.com/Sam15-code/ElevateHomeDecor)
  - Install dependencies (npm install)
  - Connect the schema file to produce the directory(source db/schema.sql)
  - run and utilize the seed data by using ( npm run seed )
@@ -36,7 +36,7 @@ We created "Elevate Home Decor e-commerce website" constructed on which the user
 
 ## Usage
 
-- Step 1, The customer will need apply their creditionals in our furniture website.
+- Step 1, The customer will need apply their credentials in our furniture website.
 - You will be prompted with the web page, log-in site, and social media page.  
 - Once you have logged in, scroll through the furniture that best fits your interest.
 
@@ -50,7 +50,7 @@ This project was a collaboration of:
 
  - Gloria Yang: https://github.com/msgloriayang
 
- - Jusin Mbanefo: https://github.com/jmbanefo
+ - Justin Mbanefo: https://github.com/jmbanefo
 
  - Elsadek elnimiry:https://github.com/eelnimeiry
 
