@@ -16,7 +16,7 @@
 
 We created "Kayuu" constructed on which the users can search for specified furniture that they would prefer in their home and purchase the items on our website. The customers will need to indicate the users email and private password. Subsequently they will successfully be able to have access to the webpage, credentials, and social media page.
 
-## Technologies used
+## Technologies
  - oracle
  - mongodb
  - GraphQL API
